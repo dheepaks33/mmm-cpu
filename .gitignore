@@ -1,0 +1,42 @@
+# Build output (scripts/build.py, make)
+build/
+*.exe
+*.dll
+*.o
+*.obj
+*.pdb
+*.ilk
+*.so
+*.dylib
+
+# Benchmark scratch: raw matrix dumps from `mmm --dump DIR` (A.bin, B.bin, C.bin)
+results/*/dump/
+dump/
+*.bin
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.env
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Tooling
+graphify-out/
+.claude/settings.local.json

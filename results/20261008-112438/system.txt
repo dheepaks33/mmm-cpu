@@ -1,0 +1,59 @@
+
+===== date / host =====
+2026-10-08T05:54:47Z
+Windows-11-10.0.26300-SP0
+python 3.12.10 on AMD64
+
+===== cpu =====
+model: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+logical processors: 8   this process may use: 0xFF
+Name                      : Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+NumberOfCores             : 4
+NumberOfLogicalProcessors : 8
+L2CacheSize               : 1024
+L3CacheSize               : 8192
+MaxClockSpeed             : 2400
+CurrentClockSpeed         : 2400
+
+
+
+
+
+Manufacturer        : HP
+Model               : HP Pavilion Gaming Laptop 15-dk0xxx
+TotalPhysicalMemory : 8423395328
+
+===== core types / simd (mmm topology) =====
+CPU: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+SIMD: AVX yes, AVX2 yes, FMA yes, AVX-512F no
+Logical processors: 8   current affinity: 0xFF
+
+  core  class  logical processors
+     0      0  0 1 
+     2      0  2 3 
+     4      0  4 5 
+     6      0  6 7 
+
+All 4 cores are the same type: no pinning needed.
+Suggested: --threads 4 (one per physical core); also try --threads 8 (hyperthreads).
+
+===== power / frequency policy =====
+power source: plugged in (AC), battery 77%
+battery saver: off
+Power Scheme GUID: 48684d4a-8524-4093-8a63-ea7132b79c1c  (HP Recommended)
+power mode: Best performance (ded574b5-45a0-4f42-8737-46345c09c238)
+
+===== compilers =====
+C:\msys64\ucrt64\bin\clang++.exe: clang version 22.1.8 (https://github.com/msys2/MINGW-packages d34feaaa1d0aff624c870910b6f2589aa40d20de)
+C:\msys64\ucrt64\bin\g++.exe: g++.exe (Rev4, Built by MSYS2 project) 16.2.0
+
+===== OpenMP environment =====
+OMP_NUM_THREADS=8
+
+===== python / numpy / BLAS =====
+numpy 2.5.3
+{'user_api': 'blas', 'internal_api': 'openblas', 'version': '0.3.34.106.0', 'num_threads': 8, 'architecture': 'Haswell'}
+
+===== git =====
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
